@@ -1,6 +1,6 @@
 FROM rocker/rstudio:latest
 
-ENV PORT=10000
+ENV PORT=${PORT}
 
 RUN useradd -m -s /bin/bash rstudiouser
 
